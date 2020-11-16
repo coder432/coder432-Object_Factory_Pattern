@@ -4,6 +4,7 @@ if __name__ == "__main__":
 
     
     factory = OperationFactory.getInstance()
+    #regitering feature added
     factory.register(devide)
     while(True):
         line = input().split()
